@@ -1,0 +1,52 @@
+package Entites;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.Period;
+
+public class Cliente {
+
+	private String cpf;
+	private String nome;
+	private static LocalDate dataNascimento = LocalDate.parse("1994-12-23");
+	
+	
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getDataNascimento() {
+		return dataNascimento;
+	}
+
+
+	public void setDataNascimento(String dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+	
+	public Cliente(String cpf, String nome) {
+		this.cpf = cpf;
+		this.nome = nome;
+		
+	}
+
+	public static int idade() {
+	    return Period.between(dataNascimento, LocalDate.now()).getYears();
+	}
+	///public int calcularIdade(int dia, int mes, int ano) {
+		
+	///}
+	
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="ENTITES.TRIANGULO"/>
+    <fullyQualifiedTypeName name="Elements.produto"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Entites.Cliente"/>
+    <fullyQualifiedTypeName name="Entites.Produto"/>
+    <fullyQualifiedTypeName name="Entites.Venda"/>
+    <fullyQualifiedTypeName name="Entites.itemVenda"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="entites.Produto"/>
+</qualifiedTypeNameHistroy>
